@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="library.Student.create.StudentCreateController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="235.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thêm mới sinh viên" />
+      <TextField fx:id="txtId" layoutX="206.0" layoutY="94.0" promptText="id" />
+      <TextField fx:id="txtName" layoutX="206.0" layoutY="139.0" promptText="Name" />
+      <TextField fx:id="txtEmail" layoutX="207.0" layoutY="185.0" promptText="Email" />
+      <TextField fx:id="txtTel" layoutX="207.0" layoutY="230.0" promptText="Tel" />
+      <Button onAction="#submit" layoutX="413.0" layoutY="301.0" mnemonicParsing="false" text="Thêm" />
+      <Button onAction="#backToList" layoutX="47.0" layoutY="301.0" mnemonicParsing="false" text="&lt;&lt;Back" />
+   </children>
+</Pane>
