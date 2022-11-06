@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectJV2.HomeController">
+   <children>
+      <Text layoutX="148.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text1" />
+      <Text layoutX="148.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text2" />
+      <Text layoutX="516.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text3" />
+      <Text layoutX="516.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text4" />
+      <Button onAction="#goToThanhVien" layoutX="222.0" layoutY="193.0" mnemonicParsing="false" text="Thành Viên Gia Đình" />
+      <Button onAction="#goToThemThu" layoutX="84.0" layoutY="280.0" mnemonicParsing="false" text="Thêm Thu" />
+      <Button onAction="#goToThemChi" layoutX="455.0" layoutY="280.0" mnemonicParsing="false" text="Thêm Chi" />
+      <Text fill="#da1111" layoutX="198.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quản Lý Chi Tiêu">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button onAction="#goToThuNam" layoutX="37.0" layoutY="65.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" text="Thu Năm :" />
+      <Button onAction="#goToChiNam" layoutX="37.0" layoutY="110.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" text="Chi Năm :" />
+      <Button layoutX="393.0" layoutY="65.0" mnemonicParsing="false" onAction="#goToThuThang" prefHeight="31.0" prefWidth="102.0" text="Thu Tháng :" />
+      <Button onAction="#goToChiThang" layoutX="393.0" layoutY="110.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="102.0" text="Chi Tháng :" />
+   </children>
+</Pane>
