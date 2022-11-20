@@ -5,13 +5,14 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectJV2.them_chi.themchithang.ThêmchiThangCotroller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectJV2.them_chi.themchithang.ThemchiThangCotroller">
    <children>
       <Text fill="#f80f0f" layoutX="209.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thêm Khoản Chi">
          <font>
             <Font size="25.0" />
          </font>
       </Text>
+      <ComboBox fx:id="cbMember" layoutX="207.0" layoutY="70.0" prefHeight="31.0" prefWidth="217.0" promptText="select member" />
       <TextField fx:id="txtSName" layoutX="207.0" layoutY="105.0" prefHeight="31.0" prefWidth="217.0" />
       <TextField fx:id="txtSpend" layoutX="207.0" layoutY="169.0" prefHeight="31.0" prefWidth="217.0" />
       <Text layoutX="80.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Khoản Chi" />
